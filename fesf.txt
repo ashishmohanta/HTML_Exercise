@@ -1,0 +1,13 @@
+def get_score(student_id:any, student_name:any, student_mark:any, mark=None, name=None):
+    for x,y in get_score.items():
+        print(x,y)
+        id1=input("eener id:")
+        print(id1)
+        if id1 == student_id:
+            print(student_id)
+            name = input("enter name:")
+            mark = input("enter mark:")
+        elif name == student_name and mark == student_mark:
+            print(student_name,":",student_mark)
+        else:
+            print("not found")
